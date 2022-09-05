@@ -1,0 +1,5 @@
+.slds-modal__container {
+	margin: 0 auto !important;
+	width: var(--lwc-spacingXSmall, 0.5rem) !important;
+	min-width: var(--lwc-sizeXxLarge, 60rem) !important;
+}
