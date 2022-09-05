@@ -1,8 +1,4 @@
-/**
- * @description       :
- * @author            : Girish P
- * @group             :
- **/
+
 import { LightningElement, api } from "lwc";
 import { CloseActionScreenEvent } from "lightning/actions";
 import getMetaData from "@salesforce/apex/SmartAIApi.getMetaData";
