@@ -1,8 +1,3 @@
-/**
- * @description       :
- * @author            : Girish P
- * @group             :
- **/
 import { LightningElement, wire, api, track } from "lwc";
 import callSmartAI from "@salesforce/apex/SmartAIApi.callSmartAI";
 import checkAccess from "@salesforce/apex/SmartAIApi.checkAccess";
