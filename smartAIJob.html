@@ -1,0 +1,20 @@
+<!-- sldsValidatorIgnore -->
+<template>
+	<!-- lightning button for open modal window -->
+	<lightning-card title="SmartAI To Job">
+		<lightning-button
+			label="Refresh"
+			slot="actions"
+			onclick={refresh}
+		></lightning-button>
+		<template if:true={showCard}>
+			<p class="slds-p-horizontal_small">
+				<iframe
+					title="smartAIinterview"
+					style="height: 700px; width: 100%"
+					src={iframeURL}
+				></iframe>
+			</p>
+		</template>
+	</lightning-card>
+</template>
