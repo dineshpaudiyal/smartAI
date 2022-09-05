@@ -1,10 +1,4 @@
-/**
- * @description       :
- * @author            : Girish P
- * @group             :
- * @last modified on  : 10-25-2021
- * @last modified by  : Girish P
- **/
+
 import { LightningElement, wire, api } from "lwc";
 import callSmartAI from "@salesforce/apex/SmartAIApi.callSmartAI";
 import checkScreeningPermission from "@salesforce/apex/SmartAIApi.checkScreeningPermission";
